@@ -1,0 +1,17 @@
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="testscripts.Module_1"/>
+    </classes>
+  </test> 
+  <test thread-count="5" name="Test2">
+    <classes>
+      <class name="testscripts.Module_2"/>
+    </classes>
+  </test> 
+  <test thread-count="5" name="Test3">
+    <classes>
+      <class name="testscripts.Module_3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
